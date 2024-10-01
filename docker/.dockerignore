@@ -1,0 +1,39 @@
+# ignore these modules while building the image
+
+.husky
+.next
+.vscode
+.github
+.storybook
+
+# git
+.git
+.gitignore
+
+node_modules
+docker
+coverage
+dist
+tmp
+temp
+
+.pnpm
+.pnpm-store
+
+# env files
+.env
+.env.example
+
+# eslint
+.eslintcache
+.eslintignore
+.eslintrc.js
+
+# prettier
+.prettierrc.js
+.prettierignore
+
+
+# non essential files
+next-env.d.ts
+tsconfig.tsbuildinfo
